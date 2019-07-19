@@ -1,0 +1,16 @@
+
+
+body{
+
+}
+
+
+
+.Navbar{
+	background-color:green;
+	display:flex;
+	padding: 16px;
+	font-family: sans-serif;
+	color:white;
+}
+
