@@ -14,3 +14,31 @@ body{
 	color:white;
 }
 
+.Navbar__Items{
+	display:flex;
+}
+
+.Navbar__Link{
+	padding-right: 8px;
+}
+
+
+.Navbar__Items--right {
+	margin-left: auto;
+}
+
+
+/* Adaptar resoluciones */
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .Navbar__Items{
+  	display:none;
+  }
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+}
