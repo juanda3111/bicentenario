@@ -1,6 +1,8 @@
 <html>
 	
 	<head>
+	<!-- para que acepte tildes, singnos de interrogacion , etc -->
+	<meta charset="utf-8">
 	<!--Bootstrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
 	<!--Font awesome-->
@@ -43,11 +45,11 @@
 		    </nav>
 		</div>
 		<!-- Fin div del header  -->		 
-		<!-- Div de introduccion-->
+		<!-- Div de introduccion pequeña-->
 
 		
 		<div class="container-fluid" id="contenedor2">
-			<div class="row text-center" id="cont2-fila1">
+			<div class="row" id="cont2-fila1">
 
 				<div class="col-md-3 padding-del-div-2">
 					<img id="img-especial-bicentenario" src="img/especial-bicentenario.png">	
@@ -64,7 +66,29 @@
 		</div>
 		<!-- Fin div de introduccion-->
 
-		<!-- div no 3 -->
+		<!--div no 3 introduccion grande-->
+
+		<div class="container-fluid" id="contenedor-introduccion">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="img/espacio-para-foto.png" alt="espacio-de-foto" style="width: 95%">
+				</div>
+				<div class="col-sm-6" id="espacio-para-texto-introduccion">
+					<p class="titulo-introduccion-div-3" > <h5>¿ Qu&eacute; se conmemora en el Bicentenario ?</h5></p>
+					<p>iQuisque eleifend rhoncus libero dignissim
+						ornare. Nam nec hendrerit dolor, quis laoreet
+						mi. Donec ac ligula consectetur, euismod
+						tortor et, ultricies purus. Proin et elit vel
+						quam elementum gravida id eu metus. Nam
+						dapibus sit amet tortor auctor
+						consequatrutrum faucibus tempus.</p>
+
+				</div>
+			</div>
+		</div>
+		<!--Final del div no 3 introduccion grande-->
+
+		<!-- div no 4 -->
 		
 		<div class="container-fluid" id="container-div-no-3">
 			<div class="row text-center">
@@ -86,7 +110,7 @@
 			</div>
 		</div>
 
-		<!-- Fin div no 3 -->
+		<!-- Fin div no 4 -->
 
 		<!--div llanos orientales-->
 		<!--titulo-->
@@ -98,14 +122,63 @@
 		  <div class="imagen">
 		  	<img src="img/fondo-azul.png" id="imagen-fondo-region">
 		  </div>
-		  <div class="texto">texto lorem ipsum Quisque eleifend rhoncus libero dignissim ornare. Nam
-						nec hendrerit dolor, quis laoreet mi. Donec ac ligula con-
-						sectetur, euismod tortor et, ultricies purus. </div>
-		  <div class="personajes">s</div>
-		  <div class="que-visitar">d</div>
+		  <div class="texto">
+		  		<div class="contenedor-blanco" style="padding-top: 25px; ">texto lorem ipsum Quisque eleifend rhoncus libero dignissim ornare. Nam
+				nec hendrerit dolor, quis laoreet mi. Donec ac ligula con-
+				sectetur, euismod tortor et, ultricies purus.
+				</div> 
+		  </div>
+
+		  <div class="personajes">
+			<img src="img/titulo-personajes.png" alt="titulo-personajes">
+			<ul style="border-right: 1px ridge green;">
+				<li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>
+				<li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>
+				<li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>		
+		  	</ul>
+		  </div>
+		  <div id="vl"></div>
+		  <div class="que-visitar">
+		  	<img src="img/titulo-personajes.png" alt="titulo-que-visitar">
+		  	<ul><li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>
+				<li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>
+				<li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>
+		  	</ul>
+		  </div>
+
+</div>
+		<!--Imagenes de las regiones-->
+		<div class="container-fluid">
+			<div class="row" style="background-color:#c1d7e2;">
+				<div class="col-sm-2">
+					<img src="img/municipios-bicentenario.png" alt="" style="width: 100%;">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/espacio-en-blanco.png" alt="" style="width: 100%;">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/espacio-en-blanco.png" alt="" style="width: 100%;">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/espacio-en-blanco.png" alt="" style="width: 100%;">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/espacio-en-blanco.png" alt="" style="width: 100%;">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/espacio-en-blanco.png" alt="" style="width: 100%;">
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid" id="boton-ver-mas-llanos" style="background-color:#c1d7e2;">
+			<img src="img/boton-ver-mas-llanos.png" alt="">
 		</div>
 		<!--Final div llanos orientales-->
    		 
+
+
+
 
 
 	</body>

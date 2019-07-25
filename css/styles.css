@@ -103,6 +103,21 @@
 /*Fin de la decoracion del div de introduccion*/
 
 /*div no 3*/
+#contenedor-introduccion{
+  background-color: #e9d3a1;
+  padding: 15px 10px 30px 20px;
+  color:#804000;
+}
+.titulo-introduccion-div-3{
+  padding-top: 3vh;
+
+}
+#espacio-para-texto-introduccion{
+  padding-right: 40px;
+}
+/*finala div no 3*/
+
+/*div no 4*/
 #container-div-no-3{
   background-color: #e9d3a1;
 }
@@ -149,7 +164,7 @@
   padding:25px;
 }
 
-/*final del div no 3*/
+/*final del div no 4*/
 
 
 
@@ -164,35 +179,57 @@ padding-bottom: 10px;
   width: 100%;
   padding-left: 40px;
 }
+
+#boton-ver-mas-llanos{
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /*fin div llanos orientales*/
 
+/*para ver margenes de donde queda el grid*/
 /*grid regiones*/
-.grid-container * { 
+/*.grid-container * { 
  border: 1px solid red;
  position: relative;
-}
-
-.grid-container *:after { 
- content:attr(class);
- position: absolute;
- top: 0;
- left: 0;
-}
+}*/
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: "imagen imagen texto texto" "imagen imagen personajes que-visitar" ". . . .";
+  margin-bottom: -25px; /*me toco esta chambonada para que no quede tan alejado por el padding que viene con el grid*/
 }
 
 .imagen { grid-area: imagen; }
 
-.texto { grid-area: texto; }
+.texto { 
+  grid-area: texto;
 
-.personajes { grid-area: personajes; }
+ }
+ .texto .contenedor-blanco{
+  background-color:white;
+  margin:0 20px 0 20px; /*arriba derecha abajo izquierda*/
+  padding-bottom: 3vW;
+  border-radius: 4px;
+  top: 0;
+ }
 
-.que-visitar { grid-area: que-visitar; }
+.personajes { 
+  grid-area: personajes;
+  /*border-right: 1px ridge green; */
+  height: 110px;
+}
+
+/*prueba linea vertical*/
+#vl {
+  border-left: 1px solid green;
+  height: 50px;
+  
+}
+
+.que-visitar { grid-area: que-visitar;}
 
 @media only screen and (max-width: 768px) {
 
