@@ -241,3 +241,46 @@ padding-bottom: 10px;
 
 
 /*final del grid de regiones*/
+
+
+
+/*div centro*/
+
+#color-fondo-centro{
+background-color: #CFE4E5;
+text-align: center;
+padding-bottom: 10px;
+}
+
+/*Final del div centro*/
+
+/*div surocidente*/
+
+#color-fondo-suroccidente{
+background-color: #F4D8D5;
+text-align: center;
+padding-bottom: 10px;
+}
+
+/*Final del div surocidente*/
+
+
+
+
+/*Footer*/
+#footer{
+  background-color: #e9d3a1;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container{
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+  }
+  .grid-container img{
+    bottom: 100px;
+  }
+}
+
+/*Final del footer*/
