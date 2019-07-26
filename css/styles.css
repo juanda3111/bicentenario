@@ -37,7 +37,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) and (min-width:60px){
   .Navbar__Items,
   .Navbar {
     flex-direction: column;
@@ -92,7 +92,7 @@
   width: 200px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) and (min-width:60px){
 
   #img-foto-div-2{
     display: none;
