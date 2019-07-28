@@ -22,7 +22,7 @@
 }
 /*redimensionar la imagen navbar*/
 .Navbar__Link img{
-  width: 150px;
+  width: 20vw;
 }
 
 .Navbar__Items {
@@ -37,7 +37,12 @@
   display: none;
 }
 
-@media only screen and (max-width: 1000px) and (min-width:60px){
+@media only screen and (max-width: 760px) and (min-width:60px){
+
+  .Navbar__Link img{
+  width: 60vw;
+  }
+
   .Navbar__Items,
   .Navbar {
     flex-direction: column;
