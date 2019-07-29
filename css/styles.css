@@ -10,7 +10,7 @@
 #removedor-decoracion-hipertextos{
   text-decoration: none;
   color: #804000;
-  padding-right:20px;/*de paso agrego un padding por aca*/
+  padding-right:35px;/*de paso agrego un padding por aca*/
 }
 
 a {
@@ -291,7 +291,7 @@ padding-bottom: 20px;
 /*div centro*/
 
 #color-fondo-centro{
-background-color: #def2ec;
+background-color: #c4eee1;
 text-align: center;
 padding:10px;
 padding-bottom: 20px;}
