@@ -10,6 +10,13 @@
 #removedor-decoracion-hipertextos{
   text-decoration: none;
   color: #804000;
+  padding-right:10px;/*de paso agrego un padding por aca*/
+}
+
+a {
+  text-decoration: none;
+    color: white;
+
 }
 
 /*Decoracion del header*/
@@ -27,7 +34,7 @@
 }
 /*redimensionar la imagen navbar*/
 .Navbar__Link img{
-  width: 20vw;
+ /*width: 180px;*/
 }
 
 .Navbar__Items {
@@ -45,7 +52,7 @@
 @media only screen and (max-width: 760px) and (min-width:60px){
 
   .Navbar__Link img{
-  width: 60vw;
+  width: 50vw;
   }
 
   .Navbar__Items,
