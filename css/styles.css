@@ -95,6 +95,7 @@
 
 #img-especial-bicentenario{
   width: 200px;
+  padding-right: 20px;
 }
 
 @media only screen and (max-width: 1000px) and (min-width:60px){
@@ -127,46 +128,52 @@
   background-color: #e9d3a1;
 }
 
+
 #cuadrado1{
   height: 100px;
   width: auto;
-  background-color: #4169E1;
+  background-color: #007e7d;
   color: white;
   margin: 0 -10px 10px;
   padding:25px;
+  padding-bottom: 105px;
 }
 
 #cuadrado2{
   height: 100px;
   width: auto;
-  background-color: #2E8B57;
+  background-color: #008168;
   color: white;
   margin: 0 -10px 10px;
   padding:30px;
+  padding-bottom: 100px;
 }
 #cuadrado3{
   height: 100px;
   width: auto;
-  background-color: #FF6347;
+  background-color: #a9251b;
   color: white;
   margin: 0 -10px 10px;
   padding:25px;
+  padding-bottom: 105px;
 }
 #cuadrado4{
   height: 100px;
   width: auto;
-  background-color: #CD5C5C;
+  background-color: #811841;
   color: white;
   margin: 0 -10px 10px;
   padding:30px;
+  padding-bottom: 100px;
 }
 #cuadrado5{
   height: 100px;
   width: auto;
-  background-color: #8A2BE2;
+  background-color: #581c5a;
   color: white;
   margin: 0 -10px 10px;
   padding:25px;
+  padding-bottom: 105px;
 }
 
 /*final del div no 4*/
@@ -175,9 +182,10 @@
 
 /*div llanos orientales*/
 #color-fondo-llanos{
-background-color: #c1d7e2;
+background-color: #deeeee;
 text-align: center;
-padding-bottom: 10px;
+padding:10px;
+padding-bottom: 20px;
 }
 
 #imagen-fondo-region{
@@ -227,10 +235,9 @@ padding-bottom: 10px;
   height: 110px;
 }
 
-/*prueba linea vertical*/
+/*margen que queda entre el espacio de la foto principal y las fotos secundarias*/
 #vl {
-  border-left: 1px solid green;
-  height: 50px;
+  height: 40px;
   
 }
 
@@ -239,15 +246,17 @@ padding-bottom: 10px;
 
 @media only screen and (max-width: 768px) {
 
-  .grid-container{
-    display:none;
-  }
   .imagen{
     width: 500px;
     text-align: center;
   }
 }
 
+@media only screen and (max-width: 800px) {
+   .grid-container{
+    display:none;
+  }
+}
 
 /*final del grid de regiones*/
 
@@ -256,19 +265,20 @@ padding-bottom: 10px;
 /*div centro*/
 
 #color-fondo-centro{
-background-color: #CFE4E5;
+background-color: #def2ec;
 text-align: center;
-padding-bottom: 10px;
-}
+padding:10px;
+padding-bottom: 20px;}
 
 /*Final del div centro*/
 
 /*div surocidente*/
 
 #color-fondo-suroccidente{
-background-color: #F4D8D5;
+background-color: #f8e6e4;
 text-align: center;
-padding-bottom: 10px;
+padding:10px;
+padding-bottom: 20px;
 }
 
 /*Final del div surocidente*/
@@ -279,7 +289,7 @@ padding-bottom: 10px;
 /*Footer*/
 #footer{
   background-color: #e9d3a1;
-  padding: 20px;
+  padding: 40px;
 }
 
 @media only screen and (max-width: 768px) {
