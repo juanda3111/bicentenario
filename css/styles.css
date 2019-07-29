@@ -234,10 +234,14 @@ padding-bottom: 10px;
   
 }
 
+
 .que-visitar { grid-area: que-visitar;}
 
 @media only screen and (max-width: 768px) {
 
+  .grid-container{
+    display:none;
+  }
   .imagen{
     width: 500px;
     text-align: center;
