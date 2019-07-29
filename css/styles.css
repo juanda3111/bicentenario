@@ -309,8 +309,23 @@ padding-bottom: 20px;
 
 /*Final del div surocidente*/
 
+/*div costa caribe*/
+#color-fondo-caribe{
+background-color: #f3e4e8;
+text-align: center;
+padding:10px;
+padding-bottom: 20px;
+}
+/*final div costa caribe*/
 
-
+/*final div antioquia y eje cafetero*/
+#color-fondo-antioquia{
+background-color: #e7dfe8;
+text-align: center;
+padding:10px;
+padding-bottom: 20px;
+}
+/*final div antioquia y eje cafetero*/
 
 /*Footer*/
 #footer{
