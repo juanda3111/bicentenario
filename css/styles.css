@@ -22,7 +22,7 @@ a {
 /*Decoracion del header*/
 
 .Navbar {
-  background-color: #e9d3a1;
+  background-color: #f2debb;
   display: flex;
   padding: 16px;
   font-family: sans-serif;
@@ -86,12 +86,12 @@ a {
 /*Decoracion del div de introduccion*/
 
 #contenedor2 {
-  background-color: #e9d3a1; /*el cafe de fondo*/
+  background-color: #f2debb; /*el cafe de fondo*/
   text-align: center;
   padding-bottom: 2px;
 }
 #cont2-fila1{
-  background-color: #fdf5c9; /*el amarillito ese del segundo div*/
+  background-color: #fff8e3; /*el amarillito ese del segundo div*/
   margin: 10px;
   margin-top: 0;
   text-align: center;
@@ -122,7 +122,7 @@ a {
 
 /*div no 3*/
 #contenedor-introduccion{
-  background-color: #e9d3a1;
+  background-color: #f2debb;
   padding: 15px 10px 30px 20px;
   color:#804000;
 }
@@ -137,7 +137,7 @@ a {
 
 /*div no 4*/
 #container-div-no-3{
-  background-color: #e9d3a1;
+  background-color: #f2debb;
 }
 
 
@@ -314,7 +314,7 @@ padding-bottom: 20px;
 
 /*Footer*/
 #footer{
-  background-color: #e9d3a1;
+  background-color: #f2debb;
   padding: 40px;
 }
 
