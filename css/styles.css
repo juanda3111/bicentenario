@@ -5,7 +5,12 @@
   box-sizing:border-box;
 
 }
+/*remover hypertext decoration*/
 
+#removedor-decoracion-hipertextos{
+  text-decoration: none;
+  color: #804000;
+}
 
 /*Decoracion del header*/
 
@@ -178,9 +183,23 @@
 
 /*final del div no 4*/
 
+/*tamaño de los titulos para responsive*/
+@media only screen and (max-width: 1000px) and (min-width:60px){
+
+    #tamanio-imagen-titulo-region-llanos{
+      width: 60%;
+    }
+    #tamanio-imagen-titulo-region-centro{
+      width: 20%;
+    }
+    #tamanio-imagen-titulo-region-suroccidente{
+      width: 60%;
+    }
+}
 
 
 /*div llanos orientales*/
+
 #color-fondo-llanos{
 background-color: #deeeee;
 text-align: center;
