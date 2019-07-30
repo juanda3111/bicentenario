@@ -106,7 +106,7 @@ a {
 
 
 #img-especial-bicentenario{
-  width: 200px;
+  width: 250px;
   padding-right: 20px;
 }
 
@@ -202,6 +202,12 @@ a {
     #tamanio-imagen-titulo-region-suroccidente{
       width: 60%;
     }
+    #tamanio-imagen-titulo-region-caribe{
+      width: 40%;
+    }
+    #tamanio-imagen-titulo-region-antioquia{
+      width: 60%;
+    }
 }
 
 
@@ -210,7 +216,7 @@ a {
 #color-fondo-llanos{
 background-color: #deeeee;
 text-align: center;
-padding:10px;
+padding:25px;
 padding-bottom: 20px;
 }
 
@@ -268,19 +274,21 @@ padding-bottom: 20px;
 }
 
 
+
 .que-visitar { grid-area: que-visitar;}
 
-@media only screen and (max-width: 768px) {
-
-  .imagen{
-    width: 500px;
-    text-align: center;
-  }
+.responsive-llanos{
+  display: none ;
 }
+
 
 @media only screen and (max-width: 800px) {
    .grid-container{
-    display:none;
+    visibility:none;
+  }
+
+    .responsive-llanos{
+    display: initial;
   }
 }
 
@@ -293,7 +301,7 @@ padding-bottom: 20px;
 #color-fondo-centro{
 background-color: #c4eee1;
 text-align: center;
-padding:10px;
+padding:25px;
 padding-bottom: 20px;}
 
 /*Final del div centro*/
@@ -311,9 +319,9 @@ padding-bottom: 20px;
 
 /*div costa caribe*/
 #color-fondo-caribe{
-background-color: #f3e4e8;
+background-color: #ead2d9;
 text-align: center;
-padding:10px;
+padding:25px;
 padding-bottom: 20px;
 }
 /*final div costa caribe*/
@@ -322,15 +330,21 @@ padding-bottom: 20px;
 #color-fondo-antioquia{
 background-color: #e7dfe8;
 text-align: center;
-padding:10px;
+padding:25px;
 padding-bottom: 20px;
 }
 /*final div antioquia y eje cafetero*/
+
+
+/*areglar menu para que salga info de las ragiones cuando este en resoluciones pequeñas*/
+
+/*fin areglar menu para que salga info de las ragiones cuando este en resoluciones pequeñas
 
 /*Footer*/
 #footer{
   background-color: #f2debb;
   padding: 40px;
+  border-top: 5px solid white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -344,3 +358,7 @@ padding-bottom: 20px;
 }
 
 /*Final del footer*/
+
+
+/*clase responsive de los divs de regiones*/
+
