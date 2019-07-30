@@ -280,6 +280,10 @@ padding-bottom: 20px;
 .responsive-llanos{
   display: none ;
 }
+/*.personajes-y-que-visitar-responsive{
+  display: none;
+
+ }*/
 
 
 @media only screen and (max-width: 800px) {
@@ -292,8 +296,14 @@ padding-bottom: 20px;
   }
 
   .ajuste-responsive{
+    display: normal!important;
     width: 80%;
+    padding-right: 15%;
   }
+ /*.personajes-y-q-visitar-responsive{
+  visibility: normal ! important;
+ }*/
+
 }
 
 /*final del grid de regiones*/
