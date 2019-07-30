@@ -290,6 +290,10 @@ padding-bottom: 20px;
     .responsive-llanos{
     display: initial;
   }
+
+  .ajuste-responsive{
+    width: 80%;
+  }
 }
 
 /*final del grid de regiones*/
