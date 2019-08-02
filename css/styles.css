@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  color: #804000;
+  font-size: 15px;
 
 }
 /*remover hypertext decoration*/
@@ -259,6 +261,9 @@ padding-bottom: 20px;
   padding-bottom: 3vW;
   border-radius: 4px;
   top: 0;
+ }
+ .contenedor-blanco{
+  padding:40px;
  }
 
 .personajes { 
