@@ -157,8 +157,8 @@
 		  </div>
 		  
 
-		  <div class="texto ajuste-responsive">
-		  		<div class="contenedor-blanco " style="padding-top: 25px; margin-right: 10%; ">Esta región fue la entrada a la Nueva Granada para las tropas que venían desde
+		  <div class="texto ajuste-responsive ">
+		  		<div class="contenedor-blanco " style="padding-top: 25px; ">Esta región fue la entrada a la Nueva Granada para las tropas que venían desde
 				Venezuela por la Campaña Libertadora. Varios municipios como Tame, Hato Corozal, Paz
 				de Ariporo y Pore, entre otros, hicieron parte de la ruta transitada por las tropas de
 				Santander y Bolívar hacia el páramo de Pisba y el interior del país, para fortalecer el
@@ -168,7 +168,7 @@
 				</div> 
 		  </div>
 
-		  <div class="personajes grid-sin-responsiveness">
+		  <div class="personajes grid-sin-responsiveness ">
 			<img src="img/llanos-personajes.png" alt="titulo-personajes">
 			<ul style="border-right: 1px solid white;">
 				<li style="list-style-type: circle;list-style-position: inside;">Juan Nepomuceno Moreno</li>
@@ -178,40 +178,48 @@
 		  </div>
 		  <div id="vl"></div>
 		  <div class="que-visitar ajuste-sin-responsive" >
-		  	<img src="img/llanos-quevisitar.png" alt="titulo-que-visitar">
-		  	<ul><li style="list-style-type: circle;list-style-position: inside;">Tame</li>
+		  	<img class="que-visitar" src="img/llanos-quevisitar.png" alt="titulo-que-visitar">
+		  	<ul class="que-visitar"><li style="list-style-type: circle;list-style-position: inside;">Tame</li>
 				<li style="list-style-type: circle;list-style-position: inside;">Pore</li>
 				<li style="list-style-type: circle;list-style-position: inside;">Nunch&iacutea</li>
 		  	</ul>
 		  </div>
 
 		</div>
-
-	<!--responsive de personajes y que visitar de llanos, no he podido hacer que funcione esta joda-->
-	<div class="container-fluid para-celulares" style="display: none;">
-		<div class="row" style="background-color:#deeeee;">
-			<div class="col-sm-6 ">
-				<img src="img/llanos-personajes.png" alt="titulo-personajes">
-				<ul style="border-right: 1px solid white;">
-					<li style="list-style-type: circle;list-style-position: inside;">Juan Nepomuceno Moreno</li>
-					<!--<li style="list-style-type: circle;list-style-position: inside;"></li>
-					<li style="list-style-type: circle;list-style-position: inside;"></li> -->		
-			  	</ul>
-		  </div>
-		 
-		  <div class=" col-sm-6 ">
-		  	<img src="img/llanos-quevisitar.png" alt="titulo-que-visitar">
-		  	<ul><li style="list-style-type: circle;list-style-position: inside;">Tame</li>
-				<li style="list-style-type: circle;list-style-position: inside;">Pore</li>
-				<li style="list-style-type: circle;list-style-position: inside;">Nunch&iacutea</li>
-		  	</ul>
-		  </div>
-
-
-		</div>
-	</div>		
-	<!--final del responsive personajes y que visitar de llanos-->
 		
+		
+		<!--div responsive de contenido personas y de que hacer-->
+		<div class="container-fluid responsive-personajes-que-visitar" >
+			<div class="row" style="background-color:#deeeee; margin-right: 0px;margin-bottom: -30px;">
+				<div class="col-sm-6 text-center" style="padding-bottom: 30px;">
+					<div class="contenedor-blanco-responsive" style="padding-bottom: 35px;" >Esta región fue la entrada a la Nueva Granada para las tropas que venían desde
+					Venezuela por la Campaña Libertadora. Varios municipios como Tame, Hato Corozal, Paz
+					de Ariporo y Pore, entre otros, hicieron parte de la ruta transitada por las tropas de
+					Santander y Bolívar hacia el páramo de Pisba y el interior del país, para fortalecer el
+					movimiento independentista. En la época, además de los actuales Arauca, Meta,
+					Casanare, Guaviare y Vichada, los territorios de Vaupés y Guainía integraban también la
+					provincia de los Llanos Orientales.
+					</div> 
+				</div>
+				<div class="col-sm-6 text-center">
+					<img src="img/llanos-personajes.png" alt="">
+					<ul >
+				<li style="list-style-type: circle;list-style-position: inside;">Juan Nepomuceno Moreno</li>
+				<!--<li style="list-style-type: circle;list-style-position: inside;"></li>
+				<li style="list-style-type: circle;list-style-position: inside;"></li> -->		
+		  		</ul>
+				</div>
+				<div class="col-sm-6 text-center">
+					<img src="img/llanos-quevisitar.png" alt="">
+					<ul><li style="list-style-type: circle;list-style-position: inside;">Tame</li>
+						<li style="list-style-type: circle;list-style-position: inside;">Pore</li>
+						<li style="list-style-type: circle;list-style-position: inside;">Nunch&iacutea</li>
+		  			</ul>
+				</div>
+			</div>	
+		</div>
+		<!--final del responsive personajes y que visitar de llanos-->
+
 		<!--Imagenes de las regiones-->
 		<div class="container-fluid">
 			<div class="row" style="background-color:#deeeee;">
@@ -329,9 +337,9 @@
 				  	</ul>
 				  </div>
 				  <div id="vl"></div>
-				  <div class="que-visitar">
-				  	<img src="img/centro-quevisitar.png" alt="titulo-que-visitar">
-				  	<ul><li style="list-style-type: circle;list-style-position: inside;">Villapinzón</li>
+				  <div class="que-visitar" >
+				  	<img src="img/centro-quevisitar.png" alt="titulo-que-visitar" >
+				  	<ul ><li style="list-style-type: circle;list-style-position: inside;">Villapinzón</li>
 						<li style="list-style-type: circle;list-style-position: inside;">Suesca</li>
 						<li style="list-style-type: circle;list-style-position: inside;"> Tunja</li>
 				  	</ul>
@@ -415,10 +423,10 @@
 						<li style="list-style-type: circle;list-style-position: inside;">lorem ipsum</li>
 				  	</ul>
 				  </div>-->
-				  <div id="vl"></div>
+				  
 				  <div class="col">
-				  	<img src="img/suroccdiente-quevisitar.png" alt="titulo-que-visitar">
-				  	<ul><li style="list-style-type: circle;list-style-position: inside;"> Cali</li>
+				  	<img class="que-visitar" src="img/suroccdiente-quevisitar.png" alt="titulo-que-visitar">
+				  	<ul class="que-visitar"><li style="list-style-type: circle;list-style-position: inside;"> Cali</li>
 						<li style="list-style-type: circle;list-style-position: inside;"> Popayán</li>
 						<li style="list-style-type: circle;list-style-position: inside;"> Caloto</li>
 				  	</ul>
@@ -504,7 +512,7 @@
 				  </div>
 				  <div id="vl"></div>
 				  <div class="que-visitar ajuste-responsive">
-				  	<img src="img/costa-quevisitar.png" alt="titulo-que-visitar">
+				  	<img class="que-visitar" src="img/costa-quevisitar.png" alt="titulo-que-visitar">
 				  	<ul><li style="list-style-type: circle;list-style-position: inside;">Cartagena (ciudad capital)</li>
 						<li style="list-style-type: circle;list-style-position: inside;">Santa Cruz de Mompox (municipio)</li>
 						<li style="list-style-type: circle;list-style-position: inside;">San Basilio de Palenque (corregimiento)</li>
@@ -583,7 +591,7 @@
 						</div> 
 				  </div>
 
-				  <div class="personajes ajuste-responsive">
+				  <div class="personajes ajuste-responsive clase-esconder">
 					<img src="img/antioquia-personajes.png" alt="titulo-personajes">
 					<ul style="border-right: 1px solid white;">
 						<li style="list-style-type: circle;list-style-position: inside;">José María Córdova</li>
@@ -592,7 +600,7 @@
 				  	</ul>
 				  </div>
 				  <div id="vl"></div>
-				  <div class="que-visitar ajuste-responsive">
+				  <div class="que-visitar ajuste-responsive clase-esconder">
 				  	<img src="img/antioquia-quevisitar.png" alt="titulo-que-visitar">
 				  	<ul><li style="list-style-type: circle;list-style-position: inside;">Medellín</li>
 						<li style="list-style-type: circle;list-style-position: inside;">Santa Fe de Antioquia</li>

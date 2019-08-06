@@ -265,6 +265,14 @@ padding-bottom: 20px;
  .contenedor-blanco{
   padding:40px;
  }
+ .contenedor-blanco-responsive{
+  background-color: white;
+  padding:40px;
+  margin:0 20px 0 20px; /*arriba derecha abajo izquierda*/
+  padding-bottom: 3vW;
+  border-radius: 4px;
+  top: 0;
+ }
 
 .personajes { 
   grid-area: personajes;
@@ -290,6 +298,9 @@ padding-bottom: 20px;
 
  }*/
 
+.responsive-personajes-que-visitar{
+    display: none;
+  }
 
 @media only screen and (max-width: 800px) {
    
@@ -301,7 +312,7 @@ padding-bottom: 20px;
   .ajuste-sin-responsive{
     display: unset!important;
     width: 80%;
-    padding-right: 15%;
+    padding-right: 15%; /*el que deja el texto centrado*/
   }
   .para-celulares{
     display: unset;
@@ -312,6 +323,21 @@ padding-bottom: 20px;
   }
    .ajuste-responsive{
     margin-right: 30vw;
+  }
+ .personajes{
+    display: none;
+  }
+  .que-visitar{
+    display:none;
+  }
+  .responsive-personajes-que-visitar{
+    display: unset;
+  }
+  .contenedor-blanco{
+    display: none;
+  }
+  #vl, .imagen{
+    display:none;
   }
 
 }
@@ -411,3 +437,8 @@ padding-bottom: 20px;
     background-color: white;
     color: #000;
 }
+
+
+
+
+
