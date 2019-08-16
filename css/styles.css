@@ -215,7 +215,7 @@ a {
 
 /*div llanos orientales*/
 
-#color-fondo-llanos{
+#llanos{
 background-color: #deeeee;
 text-align: center;
 padding:25px;
@@ -348,7 +348,7 @@ padding-bottom: 20px;
 
 /*div centro*/
 
-#color-fondo-centro{
+#centro{
 background-color: #c4eee1;
 text-align: center;
 padding:25px;
@@ -358,7 +358,7 @@ padding-bottom: 20px;}
 
 /*div surocidente*/
 
-#color-fondo-suroccidente{
+#suroccidente{
 background-color: #f8e6e4;
 text-align: center;
 padding:10px;
@@ -368,7 +368,7 @@ padding-bottom: 20px;
 /*Final del div surocidente*/
 
 /*div costa caribe*/
-#color-fondo-caribe{
+#caribe{
 background-color: #ead2d9;
 text-align: center;
 padding:25px;
@@ -377,7 +377,7 @@ padding-bottom: 20px;
 /*final div costa caribe*/
 
 /*final div antioquia y eje cafetero*/
-#color-fondo-antioquia{
+#antioquia{
 background-color: #e7dfe8;
 text-align: center;
 padding:25px;
