@@ -356,6 +356,16 @@ padding-bottom: 20px;}
 
 /*Final del div centro*/
 
+/*div bogota*/
+
+#bogota{
+background-color: #e5fce0;
+text-align: center;
+padding:25px;
+padding-bottom: 20px;}
+
+/*Final del div bogota*/
+
 /*div surocidente*/
 
 #suroccidente{
@@ -439,6 +449,16 @@ padding-bottom: 20px;
 }
 
 
+
+
+.btn-mapa{
+  position:absolute;
+  
+  color:blue;
+  text-align: center;
+  top: 85%;
+  left: 80%;
+}
 
 
 
