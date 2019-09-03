@@ -80,6 +80,7 @@ a {
     position: absolute;
     cursor: pointer;
    } 
+
 }
 
 /*Hasta aca va la decoracion del header*/
@@ -454,10 +455,22 @@ padding-bottom: 20px;
 .btn-mapa{
   position:absolute;
   
-  color:blue;
+  color:#804000;
   text-align: center;
   top: 85%;
-  left: 80%;
+  left: 78%;
+}
+
+
+/*Decoracion menu*/
+
+.img-llanos-hoover:hover{
+  /*color:green;*/
+
+  
+
+  background-image: url("../img/btn-fondo-llanos_03.png") ;
+  background-position:center;
 }
 
 
