@@ -245,7 +245,6 @@ padding-bottom: 20px;
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   grid-template-areas: "imagen imagen texto texto" "imagen imagen personajes que-visitar" ". . . .";
   margin-bottom: -25px; /*me toco esta chambonada para que no quede tan alejado por el padding que viene con el grid*/
 }
