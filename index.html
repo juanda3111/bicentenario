@@ -40,7 +40,7 @@
 		<!-- div del headere  -->
 		<div class="Navbar">
 		   <div class="Navbar__Link Navbar__Link-brand">
-		      <a href="https://www.rutascolombia.com/" target="_blank"><img src="img/logo-rutascolombia.png"></a>
+		      <a href="https://www.rutascolombia.com/" target="_blank"><img src="img/logo-rutascolombia.png" width="170px"></a>
 		    </div>
 		    <div class="Navbar__Link Navbar__Link-toggle">
 		      <i class="fa fa-bars fa-3x" style="padding-top:0px" onclick="classToggle();"></i>
@@ -81,7 +81,7 @@
 					<img id="img-especial-bicentenario" src="img/logo-bicentenario-rutascolombia.png">	
 				</div>
 				<div class="col-sm-6 padding-del-div-2" style="text-align:center;padding-left: 30px;padding-top:20px;">
-				 <p style="font-size: 20px;" class="texto-1-inicio">Conoce la ruta libertadora, los personajes y los lugares a visitar por región de Colombia.</p>	
+				 <p style="font-size: 20px;" class="texto-1-inicio">Conoce la ruta libertadora de 1819, los personajes y los lugares a visitar por cada región de Colombia</p>	
 				</div>
 				<div class="col-sm-3 padding-del-div-2" id="img-foto-div-2">
 				<img  src="img/bicentenario-rutas-personajes.png" >	
@@ -98,31 +98,18 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<img src="img/mapa.jpg" alt="espacio-de-foto" style="width: 95%">
-					<button class="btn btn-light btn-mapa">Ampliar</button>
+					<button onclick="location.href = 'mapa.html';" class="btn btn-light btn-mapa">Ampliar</button>
 				</div>
 				<div class="col-sm-6" id="espacio-para-texto-introduccion">
-					<p class="titulo-introduccion-div-3" > <h5><strong>¿ Qu&eacute; se conmemora en el Bicentenario ?</strong></h5></p>
-					<p>En 2019 se conmemoran 200 años de Independencia y al conmemorar las victorias obtenidas
+					<p style="font-size: 25px; font-style: italic; margin-top: 70px">¿ Qu&eacute; se conmemora en el Bicentenario ?</p>
+					<p style="font-size: 18px">En 2019 se conmemoran 200 años de Independencia y al conmemorar las victorias obtenidas
 					 en los campos de batalla, rendimos un sentido homenaje a la valentía que hombres y mujeres 
 					 demostraron a lo largo y ancho del país, en nombre de la Libertad. Es importante tener en cuenta
 					 que los eventos que condujeron a la expulsión de los españoles de nuestro territorio, no fueron
 					 aislados; al contrario, respondieron a todo un fenómeno político y cultural que se venía 
-					 gestando en la sociedad de la época. 
-
-
-					El deseo de conquistar mayores libertades y nuevas formas de gobierno, caló en lo más profundo.
-				    Desde los intelectuales hasta muchos de quienes habitaban los pequeños poblados, lejos de los
-				    cascos urbanos coloniales, vieron en la causa independentista la materialización de un propósito 
-				    conjunto. 
-
-
-					Este no fue un proceso homogéneo, pues no en todas las regiones se planteaban el independizarse 
-				    de la Corona. Por ejemplo, Pasto y Santa Marta mantenían la fidelidad a España; Mompox, por 
-				    su parte, promulgaba una posición radical que la alejaba de cualquier relación con los ibéricos,
-				    y en Santafé de Bogotá se manifestaba el desconocimiento a la autoridad del Virrey y de José I 
-				    Bonaparte, quien había sido instaurado en el poder por Napoleón tras deponer a Felipe VII. 
-				    Siendo así, unos buscaban la consolidación de país, mientras que otros esperaban la restauración 
-				    del rey español.</p>
+					 gestando en la sociedad de la época.  
+					</p>
+					<a href="#" style="color: #b96116">LEER MÁS</a>
 
 				</div>
 			</div>
@@ -250,44 +237,44 @@
 				<div class="col-sm-2">
 					<a href="https://www.rutascolombia.com/destinos/llanos-orientales/arauca/">
 						<img src="img/llanos/350x201/arauca-simon-bolivar.jpg" alt="" style="width: 100%;"></a>
-					<p>Simon Bolivar - Arauca</p>
+					<p class="txt-fotos">Simon Bolivar - Arauca</p>
 				</div>
 				<div class="col-sm-2">
 					<a href="https://www.rutascolombia.com/destinos/llanos-orientales/arauca/">
 						<img src="img/llanos/350x201/puente-internacional-jose-antonio-paez.jpg" alt="" style="width: 100%;"></a>
-					<p>Puente Internacional Jose Antonio Paez - Arauca</p>
+					<p class="txt-fotos">Puente Internacional Jose Antonio Paez - Arauca</p>
 				</div>
 				<div class="col-sm-2">
 					<a href="https://www.rutascolombia.com/destinos/llanos-orientales/arauca/">
 						<img src="img/llanos/350x201/plaza-los-libertadores.jpg" alt="" style="width: 100%;"></a>
-					<p>Plaza los libertadores - Arauca</p>
+					<p class="txt-fotos">Plaza los libertadores - Arauca</p>
 				</div>
 				<div class="col-sm-2">
 					<a href="https://www.rutascolombia.com/destinos/amazonia/amazonas/">
 						<img src="img/llanos/350x201/reserva-natural-marasha.jpg" alt="" style="width: 100%;"></a>
-					<p>Reserva Natural Marasha - Amazonas</p>
+					<p class="txt-fotos">Reserva Natural Marasha - Amazonas</p>
 				</div>
 				<div class="col-sm-2">
 					<a href="https://www.rutascolombia.com/destinos/amazonia/amazonas/">
 						<img src="img/llanos/350x201/puerto-narinio.jpg" alt="" style="width: 100%;"></a>
-					<p>Puerto Nariño - Amazonas</p>
+					<p class="txt-fotos">Puerto Nariño - Amazonas</p>
 				</div>
 			</div>
 		</div>
 		<i class="fas fa-clock"></i>
 		
 		<div class="container-fluid" id="boton-ver-mas-llanos" style="background-color:#deeeee;">
-			<div class="row">
+			<div class="row" style="margin-top: 10px">
 				<div class="col-sm-3">
 					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');">Paute Aquí</button>
 				</div>
-				<div class="col-sm-3">
-					<a href="online\llanosyamazonia\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-2x"></i> Ver Especial Bicentenario Online</a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="online\llanosyamazonia\index.html" style="color: #804000; margin-top: 10px" target="_blank" > <i class="fa fa-globe fa-1.5x"></i> Ver Especial Bicentenario Online</a>
 				</div>
-				<div class="col-sm-3">
-					<a href="pdf/Bicentenario-LLanos-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-2x"></i> Ver Especial Bicentenario en .PDF </a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="pdf/Bicentenario-LLanos-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-1.5x"></i> Ver Especial Bicentenario en .PDF </a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="text-align: center;">
 					<a href="https://www.rutascolombia.com/" target="_blank"><img src="img/vermas.png" alt=""></a>		
 				</div>
 				
@@ -436,27 +423,27 @@
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/centro/boyaca/paipa/">
 								<img src="img/centro/boyaca---paipa---casa-de-las-seis-ventanas-750.jpg" alt="" style="width: 100%;"></a>
-							<p>casa de las seis ventanas - Paipa</p>
+							<p class="txt-fotos">casa de las seis ventanas - Paipa</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/san-juan-giron/">
 								<img src="img/centro/giron---plaza-de-las-nieves---FONTUR-V12A9359.jpg" alt="" style="width: 100%;"></a>
-							<p>Plaza de las nieves - Giron</p>
+							<p class="txt-fotos">Plaza de las nieves - Giron</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/honda/">
 								<img src="img/centro/honda---fontur-djl_0071.jpg" alt="" style="width: 100%;"></a>
-							<p>Honda</p>
+							<p class="txt-fotos">Honda</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/nemocon/">
 								<img src="img/centro/nemocon---mina-de-sal.jpg" alt="" style="width: 100%;"></a>
-							<p>Mina de sal - Nemocón</p>
+							<p class="txt-fotos" >Mina de sal - Nemocón</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/ocana/">
 								<img src="img/centro/ocania---museo-de-la-gran-convencion-12.jpg" alt="" style="width: 100%;"></a>
-							<p>Museo de la Gran Convención - Ocaña (Norte de Santander)</p>
+							<p class="txt-fotos">Museo de la Gran Convención - Ocaña (Norte de Santander)</p>
 						</div>
 					</div>
 				</div>
@@ -464,15 +451,15 @@
 		<div class="container-fluid" id="boton-ver-mas-llanos" style="background-color:#c4eee1;">
 			<div class="row">
 				<div class="col-sm-3">
-					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');">Paute Aquí</button>
+					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');" >Paute Aquí</button>
 				</div>
-				<div class="col-sm-3">
-					<a href="online\centro\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-2x"></i> Ver Especial Bicentenario Online</a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="online\centro\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-1x"></i> Ver Especial Bicentenario Online</a>
 				</div>
-				<div class="col-sm-3">
-					<a href="pdf/Bicentenario-Centro-BoyacaSantanderesTolima-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-2x"></i> Ver Especial Bicentenario en .PDF </a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="pdf/Bicentenario-Centro-BoyacaSantanderesTolima-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-1x"></i> Ver Especial Bicentenario en .PDF </a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="text-align: center;">
 					<a href="https://www.rutascolombia.com/destinos/centro/" target="_blank"><img src="img/vermas.png" alt=""></a>		
 				</div>
 				
@@ -602,23 +589,23 @@
 						</div>
 						<div class="col-sm-2">
 							<img src="img/centro/bogota---Casa-museo-quinta-de-bolivar--350x201.jpg" alt="" style="width: 100%;">
-							<p>Casa museo Quinta de Bolívar </p>
+							<p class="txt-fotos">Casa museo Quinta de Bolívar </p>
 						</div>
 						<div class="col-sm-2">
 							<img src="img/centro/bogota---centro-colonial-350x201.jpg" alt="" style="width: 100%;">
-							<p>Centro Colonial</p>
+							<p class="txt-fotos">Centro Colonial</p>
 						</div>
 						<div class="col-sm-2">
 							<img src="img/centro/bogota---colegio-mayor-de-san-bartolome-350x201.jpg" alt="" style="width: 100%;">
-							<p>Colegio Mayor de san Bartolomé</p>
+							<p class="txt-fotos">Colegio Mayor de san Bartolomé</p>
 						</div>
 						<div class="col-sm-2">
 							<img src="img/centro/bogota---iglesia-san-francisco.jpg" alt="" style="width: 100%;">
-							<p>Iglesia San Francisco</p>
+							<p class="txt-fotos">Iglesia San Francisco</p>
 						</div>
 						<div class="col-sm-2">
 							<img src="img/centro/bogota---museo-nacional-350x201.jpg" alt="" style="width: 100%;">
-							<p>Museo Nacional</p>
+							<p class="txt-fotos">Museo Nacional</p>
 						</div>
 					</div>
 				</div>
@@ -628,13 +615,13 @@
 				<div class="col-sm-3">
 					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');">Paute Aquí</button>
 				</div>
-				<div class="col-sm-3">
-					<a href="online\bogota\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-2x"></i> Ver Especial Bicentenario Online</a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="online\bogota\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-1x"></i> Ver Especial Bicentenario Online</a>
 				</div>
-				<div class="col-sm-3">
-					<a href="pdf/Bicentenario-Bogota-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-2x"></i> Ver Especial Bicentenario en .PDF </a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="pdf/Bicentenario-Bogota-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-1x"></i> Ver Especial Bicentenario en .PDF </a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="text-align: center;">
 					<a href="https://www.rutascolombia.com/destinos/centro/" target="_blank"><img src="img/vermas.png" alt=""></a>		
 				</div>
 				
@@ -734,31 +721,31 @@
 							<a href="https://www.rutascolombia.com/popayan/">
 								<img src="img/suroccidente/panteon-de-los-Proceres-popayan350x201.jpg" alt="" style="width: 100%;">
 							</a>	
-							<p>Panteón de los Próceres - Popayán</p>
+							<p class="txt-fotos">Panteón de los Próceres - Popayán</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/pasto/">
 								<img src="img/suroccidente/nuestra-seniora-de-las-lajas---pasto-350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>NUestra Señora de las Lajas - Pasto</p>
+							<p class="txt-fotos">NUestra Señora de las Lajas - Pasto</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/timana/">
 								<img src="img/suroccidente/timana350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p> Timana</p>
+							<p class="txt-fotos"> Timana</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/pacifico/choco/">
 								<img src="img/suroccidente/catedral-san-francisco-de-asis---quibdo350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p> Catedral de San Francisco de Asís - Chocó</p>
+							<p class="txt-fotos"> Catedral de San Francisco de Asís - Chocó</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/suroccidente/huila/neiva/">
 								<img src="img/suroccidente/catedral-de-la-inmaculada-consepcion---neiva350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Catedral de la inmaculada concepción - Neiva</p>
+							<p class="txt-fotos">Catedral de la inmaculada concepción - Neiva</p>
 						</div>
 					</div>
 				</div>
@@ -768,13 +755,13 @@
 				<div class="col-sm-3">
 					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');">Paute Aquí</button>
 				</div>
-				<div class="col-sm-3">
-					<a href="online\suroccidenteypacifico\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-2x"></i> Ver Especial Bicentenario Online</a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="online\suroccidenteypacifico\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-1x"></i> Ver Especial Bicentenario Online</a>
 				</div>
-				<div class="col-sm-3">
-					<a href="pdf/Bicentenario-Suroccidente-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-2x"></i> Ver Especial Bicentenario en .PDF </a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="pdf/Bicentenario-Suroccidente-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-1x"></i> Ver Especial Bicentenario en .PDF </a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="text-align: center;">
 					<a href="https://www.rutascolombia.com/" target="_blank"><img src="img/vermas.png" alt=""></a>		
 				</div>
 				
@@ -882,31 +869,31 @@
 							<a href="https://www.rutascolombia.com/santa-cruz-de-mompox/">
 								<img src="img/caribe/cementerio-mompox.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Cementerio de Mompox</p>
+							<p class="txt-fotos">Cementerio de Mompox</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/santa-cruz-de-mompox/">
 								<img src="img/caribe/iglesia-san-agustin-mompox.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Iglesia San Agustin Mompox</p>
+							<p class="txt-fotos">Iglesia San Agustin Mompox</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/caribe/cesar/valledupar/">
 								<img src="img/caribe/plaza-alfonzo-lopez.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Plaza Alfonzo Lopez - Valledupar </p>
+							<p class="txt-fotos">Plaza Alfonzo Lopez - Valledupar </p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/caribe/la-guajira/riohacha/">
 								<img src="img/caribe/riohacha350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p> Riohacha </p>
+							<p class="txt-fotos"> Riohacha </p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/caribe/magdalena/santa-marta/">
 								<img src="img/caribe/taganga---santa-marta350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p> Taganga - Santa Marta </p>
+							<p class="txt-fotos"> Taganga - Santa Marta </p>
 						</div>
 					</div>
 				</div>
@@ -916,13 +903,13 @@
 				<div class="col-sm-3">
 					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');">Paute Aquí</button>
 				</div>
-				<div class="col-sm-3">
-					<a href="online\caribe\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-2x"></i> Ver Especial Bicentenario Online</a>
+				<div class="col-sm-3" style="margin-top: 9px" >
+					<a href="online\caribe\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-1x"></i> Ver Especial Bicentenario Online</a>
 				</div>
-				<div class="col-sm-3">
-					<a href="pdf/Bicentenario-Caribe-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-2x"></i> Ver Especial Bicentenario en .PDF </a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="pdf/Bicentenario-Caribe-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-1x"></i> Ver Especial Bicentenario en .PDF </a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="text-align: center;">
 					<a href="https://www.rutascolombia.com/destinos/caribe/" target="_blank"><img src="img/vermas.png" alt=""></a>		
 				</div>
 				
@@ -1029,31 +1016,31 @@
 							<a href="https://www.rutascolombia.com/destinos/antioquia-y-eje-cafetero/antioquia/santa-fe-de-antioquia/">
 								<img src="img/antioquia/museo-de-arte-religioso-santa-fe-de-antioquia350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Museo de Arte religioso - Santa Fe de Antioquia​ </p>
+							<p class="txt-fotos">Museo de Arte religioso - Santa Fe de Antioquia​ </p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/antioquia-y-eje-cafetero/caldas/manizales/">
 								<img src="img/antioquia/catedral-basilica-de-manizales-44-350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Catedral basilica - Manizales</p>
+							<p class="txt-fotos">Catedral basilica - Manizales</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/antioquia-y-eje-cafetero/quindio/armenia/">
 								<img src="img/antioquia/armenia---plaza-de-bolivar-350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Plaza de Bolívar - Armenia</p>
+							<p class="txt-fotos">Plaza de Bolívar - Armenia</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/antioquia-y-eje-cafetero/caldas/manizales/">
 								<img src="img/antioquia/catedral-basilica-de-manizales-350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Catedral Basilica - Manizales</p>
+							<p class="txt-fotos">Catedral Basilica - Manizales</p>
 						</div>
 						<div class="col-sm-2">
 							<a href="https://www.rutascolombia.com/destinos/antioquia-y-eje-cafetero/antioquia/guatape/">
 								<img src="img/antioquia/guatape---vista-panoramica350x201.jpg" alt="" style="width: 100%;">
 							</a>
-							<p>Guatape - vista panóramica</p>
+							<p class="txt-fotos">Guatape - vista panóramica</p>
 						</div>
 					</div>
 				</div>
@@ -1063,13 +1050,13 @@
 				<div class="col-sm-3">
 					<button class="btn btn-success" onclick=" window.open('http://www.rutascolombia.com/pauta-con-nosotros/');">Paute Aquí</button>
 				</div>
-				<div class="col-sm-3">
-					<a href="online\antioquiayeje\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-2x"></i> Ver Especial Bicentenario Online</a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="online\antioquiayeje\index.html" style="color: #804000" target="_blank"> <i class="fa fa-globe fa-1x"></i> Ver Especial Bicentenario Online</a>
 				</div>
-				<div class="col-sm-3">
-					<a href="pdf/Bicentenario-AntioquiayEjeCafetero-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-2x"></i> Ver Especial Bicentenario en .PDF </a>
+				<div class="col-sm-3" style="margin-top: 9px">
+					<a href="pdf/Bicentenario-AntioquiayEjeCafetero-WEB.pdf" style="color: #804000" target="_blank"> <i class="fa fa-file-pdf-o fa-1x"></i> Ver Especial Bicentenario en .PDF </a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3" style="text-align: center;">
 					<a href="https://www.rutascolombia.com/destinos/antioquia-y-eje-cafetero/" target="_blank"><img src="img/vermas.png" alt=""></a>
 				</div>
 				

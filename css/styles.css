@@ -95,12 +95,14 @@ a {
 }
 #cont2-fila1{
   background-color: #fff8e3; /*el amarillito ese del segundo div*/
-  margin: 10px;
   margin-top: 0;
   text-align: center;
 }
 #cont2-fila1 p{
-  color: #804000;
+  color: #ab743c;
+      font-size: 25px;
+    padding-top: 10px;
+    font-style: italic;
 }
 
 .padding-del-div-2{
@@ -109,8 +111,9 @@ a {
 
 
 #img-especial-bicentenario{
-  width: 250px;
   padding-right: 20px;
+   width: 300px;
+    padding-top: 8px;
 }
 
 @media only screen and (max-width: 1000px) and (min-width:60px){
@@ -128,6 +131,7 @@ a {
   background-color: #f2debb;
   padding: 15px 10px 30px 20px;
   color:#804000;
+  border-bottom: #ffffff 4px solid;
 }
 .titulo-introduccion-div-3{
   padding-top: 3vh;
@@ -229,9 +233,10 @@ padding-bottom: 20px;
 }
 
 #boton-ver-mas-llanos{
-  text-align: right;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: #ffffff 4px solid;
 }
 /*fin div llanos orientales*/
 
@@ -245,6 +250,7 @@ padding-bottom: 20px;
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+ /* grid-template-rows: 1fr 1fr;*/
   grid-template-areas: "imagen imagen texto texto" "imagen imagen personajes que-visitar" ". . . .";
   margin-bottom: -25px; /*me toco esta chambonada para que no quede tan alejado por el padding que viene con el grid*/
 }
@@ -261,6 +267,7 @@ padding-bottom: 20px;
   padding-bottom: 3vW;
   border-radius: 4px;
   top: 0;
+  margin-bottom: 18px;
  }
  .contenedor-blanco{
   padding:40px;
@@ -472,5 +479,19 @@ padding-bottom: 20px;
   background-position:center;
 }
 
+/*textos*/
 
+.txt-fotos{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #5a4b30;
+  font-size: 13px;
+}
+
+/*boton*/
+
+/*.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited{
+  background-color: #905821 !important;
+}*/
 
